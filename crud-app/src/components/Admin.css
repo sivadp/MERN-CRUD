@@ -1,0 +1,83 @@
+h2{
+    text-align: center;
+}
+.usersLog{
+    width: 90vw;
+    height: auto;
+    margin:auto;
+}
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #151515;
+    color:aliceblue;
+  }
+  
+  .user-table th:first-child {
+    width: 20%;
+  }
+  
+  .user-table th:nth-child(2) {
+    width: 10%;
+  }
+  
+  .user-table th:nth-child(3) {
+    width: 30%;
+  }
+  
+  .user-table th:nth-child(4) {
+    width: 20%;
+  }
+  
+  .user-table th:nth-child(5){
+    width:10%;
+  }
+  .user-table th:nth-child(6),
+  .user-table th:nth-child(7) {
+    width: 5%;
+  }
+  .user-table td {
+    background-color: #f2f2f2;
+  }
+  
+  .user-table td:first-child {
+    width: 20%;
+  }
+  
+  .user-table td:nth-child(2) {
+    width: 10%;
+  }
+  
+  .user-table td:nth-child(3) {
+    width: 30%;
+  }
+  
+  .user-table td:nth-child(4) {
+    width: 20%;
+  }
+  
+  .user-table td:nth-child(5){
+    width:10%;
+  }
+  .user-table td:nth-child(6),
+  .user-table td:nth-child(7) {
+    width: 5%;
+  }
+  /* ... other styles ... */
+
+.usersLog.blur {
+  backdrop-filter: blur(8px); /* Add a blur effect to the background */
+  pointer-events: none; /* Prevent interactions with the blurred content */
+}
+
+/* ... other styles ... */
